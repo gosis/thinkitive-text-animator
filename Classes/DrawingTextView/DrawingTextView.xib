@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gCt-e8-6oE" customClass="DrawingTextView" customModule="thinkitive_text_animator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rIl-Nz-Z9t" userLabel="textContainer">
+                    <rect key="frame" x="0.0" y="49" width="200" height="102.5"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="usS-RO-JU3">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="102.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="FIRST LINE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iue-xv-m25" customClass="DrawingLabel" customModule="thinkitive_text_animator" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="20.5"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="FIRST LINE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jpk-KF-sZU" customClass="DrawingLabel" customModule="thinkitive_text_animator" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="20.5" width="200" height="20.5"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="FIRST LINE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vYD-v2-kdG" customClass="DrawingLabel" customModule="thinkitive_text_animator" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="41" width="200" height="20.5"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="FIRST LINE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eph-6F-Z8P" customClass="DrawingLabel" customModule="thinkitive_text_animator" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="61.5" width="200" height="20.5"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="FIRST LINE" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhM-pB-Tt0" customClass="DrawingLabel" customModule="thinkitive_text_animator" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="82" width="200" height="20.5"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="usS-RO-JU3" firstAttribute="height" secondItem="rIl-Nz-Z9t" secondAttribute="height" id="Ih3-f1-f2k"/>
+                        <constraint firstItem="usS-RO-JU3" firstAttribute="width" secondItem="rIl-Nz-Z9t" secondAttribute="width" id="YBs-zd-A3h"/>
+                        <constraint firstItem="usS-RO-JU3" firstAttribute="centerX" secondItem="rIl-Nz-Z9t" secondAttribute="centerX" id="srh-NQ-iLO"/>
+                        <constraint firstItem="usS-RO-JU3" firstAttribute="centerY" secondItem="rIl-Nz-Z9t" secondAttribute="centerY" id="yG7-9i-tZD"/>
+                    </constraints>
+                </view>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQa-bE-KK7">
+                    <rect key="frame" x="0.0" y="100" width="200" height="0.0"/>
+                    <color key="backgroundColor" red="0.95664612680000005" green="0.18038946389999999" blue="0.18039226529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="rIl-Nz-Z9t" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gCt-e8-6oE" secondAttribute="top" id="HZR-wn-9pb"/>
+                <constraint firstItem="EQa-bE-KK7" firstAttribute="centerY" secondItem="gCt-e8-6oE" secondAttribute="centerY" id="JWn-7q-5oy"/>
+                <constraint firstItem="rIl-Nz-Z9t" firstAttribute="width" secondItem="gCt-e8-6oE" secondAttribute="width" id="TNI-KD-ITU"/>
+                <constraint firstItem="rIl-Nz-Z9t" firstAttribute="centerY" secondItem="gCt-e8-6oE" secondAttribute="centerY" id="ZBl-Po-yAC"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="rIl-Nz-Z9t" secondAttribute="bottom" id="bwd-4V-g42"/>
+                <constraint firstItem="EQa-bE-KK7" firstAttribute="centerX" secondItem="gCt-e8-6oE" secondAttribute="centerX" id="dvf-dA-JjJ"/>
+                <constraint firstItem="EQa-bE-KK7" firstAttribute="width" secondItem="gCt-e8-6oE" secondAttribute="width" id="mpm-pU-tAM"/>
+                <constraint firstItem="rIl-Nz-Z9t" firstAttribute="centerX" secondItem="gCt-e8-6oE" secondAttribute="centerX" id="zeq-we-O3z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="label" destination="EQa-bE-KK7" id="Vkq-yV-eUu"/>
+                <outlet property="stackView" destination="usS-RO-JU3" id="esz-Rp-v3B"/>
+                <outletCollection property="labels" destination="Iue-xv-m25" collectionClass="NSMutableArray" id="3zd-aJ-f9D"/>
+                <outletCollection property="labels" destination="Jpk-KF-sZU" collectionClass="NSMutableArray" id="V8E-UR-DvR"/>
+                <outletCollection property="labels" destination="vYD-v2-kdG" collectionClass="NSMutableArray" id="oEO-cn-bdZ"/>
+                <outletCollection property="labels" destination="eph-6F-Z8P" collectionClass="NSMutableArray" id="MUy-Tw-HNE"/>
+                <outletCollection property="labels" destination="mhM-pB-Tt0" collectionClass="NSMutableArray" id="dEv-5b-CSe"/>
+            </connections>
+            <point key="canvasLocation" x="-264" y="121"/>
+        </view>
+    </objects>
+</document>
