@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "thinkitive-text-animator"
-  spec.version      = "1.0"
+  spec.version      = "1.1"
   spec.summary      = "An iOS text animator library that provides UIViews that display text that can animate its outline for each character"
 
   # This description is used to generate tags and improve search results.
@@ -47,7 +47,7 @@ Library provides instances of UIView that cofnrom to TextAnimatorView through wh
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "LICENCE" }
+  spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -87,7 +87,7 @@ Library provides instances of UIView that cofnrom to TextAnimatorView through wh
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source = { :git => "https://github.com/gosis/thinkitive-text-animator.git", :tag => "#{1.0}" }
+  spec.source = { :git => "https://github.com/gosis/thinkitive-text-animator.git", :tag => "#{1.1}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -98,7 +98,7 @@ Library provides instances of UIView that cofnrom to TextAnimatorView through wh
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files = "Classes", "Classes/**/*.{h,m,xib,swift}"
   spec.swift_versions = ['5.0']
   # spec.public_header_files = "Classes/**/*.h"
 

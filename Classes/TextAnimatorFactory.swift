@@ -8,10 +8,13 @@ public class TextAnimatorFactory {
     /// Create a TextAnimatorView instance which will draw each line one after the other with max 5 lines of text
     /// - Returns: TextAnimatorView instance
     public class func drawingLines() -> TextAnimatorView? {
-        guard let drawingTextview = Bundle.main.loadNibNamed("DrawingTextView", owner: nil, options: nil)?.first as? TextAnimatorView else {
+        let podBundle = Bundle(for: DrawingTextView.self)
+        guard let url = podBundle.url(forResource: "thinkitive-text-animator", withExtension: "bundle"),
+              let bundle = Bundle(url: url),
+              let drawingTextView = bundle.loadNibNamed("DrawingTextView", owner: nil, options: nil)?.first as? DrawingTextView else {
             return nil
         }
-        
-        return drawingTextview
+
+        return drawingTextView
     }
 }

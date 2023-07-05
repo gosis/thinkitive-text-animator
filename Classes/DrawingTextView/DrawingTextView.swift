@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class DrawingTextView: UIView {
+public class DrawingTextView: UIView {
     
     /// Stack View holding the labels used for each line of text
     @IBOutlet var stackView: UIStackView!

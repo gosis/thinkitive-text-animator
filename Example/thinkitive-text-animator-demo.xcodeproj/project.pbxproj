@@ -15,13 +15,6 @@
 		518C0F2C2A52F8FB003B8DCD /* thinkitive_text_animatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F2B2A52F8FB003B8DCD /* thinkitive_text_animatorTests.swift */; };
 		518C0F362A52F8FB003B8DCD /* thinkitive_text_animatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F352A52F8FB003B8DCD /* thinkitive_text_animatorUITests.swift */; };
 		518C0F382A52F8FB003B8DCD /* thinkitive_text_animatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F372A52F8FB003B8DCD /* thinkitive_text_animatorUITestsLaunchTests.swift */; };
-		518C0F492A52FA8E003B8DCD /* DrawingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F462A52FA8E003B8DCD /* DrawingTextView.swift */; };
-		518C0F4A2A52FA8E003B8DCD /* DrawingTextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F472A52FA8E003B8DCD /* DrawingTextViewExtensions.swift */; };
-		518C0F4B2A52FA8E003B8DCD /* DrawingTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518C0F482A52FA8E003B8DCD /* DrawingTextView.xib */; };
-		518C0F4D2A52FAEE003B8DCD /* TextAnimatorDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F4C2A52FAEE003B8DCD /* TextAnimatorDesignable.swift */; };
-		518C0F532A52FC60003B8DCD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F522A52FC60003B8DCD /* Utilities.swift */; };
-		518C0F552A52FFBC003B8DCD /* DrawingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F542A52FFBC003B8DCD /* DrawingLabel.swift */; };
-		518C0F592A546DA7003B8DCD /* TextAnimatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F582A546DA7003B8DCD /* TextAnimatorFactory.swift */; };
 		51F4346D2A548B8000093E39 /* CartoonBlocks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F4346C2A548B8000093E39 /* CartoonBlocks.ttf */; };
 /* End PBXBuildFile section */
 
@@ -43,25 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		518C0F112A52F8FA003B8DCD /* thinkitive-text-animator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thinkitive-text-animator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311728BECE1B2E3E1A5B2E85 /* Pods_thinkitive_text_animator_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thinkitive_text_animator_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		518C0F112A52F8FA003B8DCD /* thinkitive-text-animator-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thinkitive-text-animator-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518C0F142A52F8FA003B8DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		518C0F182A52F8FA003B8DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		518C0F1B2A52F8FA003B8DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		518C0F1D2A52F8FB003B8DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		518C0F202A52F8FB003B8DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518C0F222A52F8FB003B8DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		518C0F272A52F8FB003B8DCD /* thinkitive-text-animatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "thinkitive-text-animatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518C0F272A52F8FB003B8DCD /* thinkitive-text-animator-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "thinkitive-text-animator-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518C0F2B2A52F8FB003B8DCD /* thinkitive_text_animatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thinkitive_text_animatorTests.swift; sourceTree = "<group>"; };
-		518C0F312A52F8FB003B8DCD /* thinkitive-text-animatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "thinkitive-text-animatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518C0F312A52F8FB003B8DCD /* thinkitive-text-animator-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "thinkitive-text-animator-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518C0F352A52F8FB003B8DCD /* thinkitive_text_animatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thinkitive_text_animatorUITests.swift; sourceTree = "<group>"; };
 		518C0F372A52F8FB003B8DCD /* thinkitive_text_animatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thinkitive_text_animatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		518C0F462A52FA8E003B8DCD /* DrawingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingTextView.swift; sourceTree = "<group>"; };
-		518C0F472A52FA8E003B8DCD /* DrawingTextViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingTextViewExtensions.swift; sourceTree = "<group>"; };
-		518C0F482A52FA8E003B8DCD /* DrawingTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawingTextView.xib; sourceTree = "<group>"; };
-		518C0F4C2A52FAEE003B8DCD /* TextAnimatorDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimatorDesignable.swift; sourceTree = "<group>"; };
-		518C0F522A52FC60003B8DCD /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		518C0F542A52FFBC003B8DCD /* DrawingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingLabel.swift; sourceTree = "<group>"; };
-		518C0F582A546DA7003B8DCD /* TextAnimatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimatorFactory.swift; sourceTree = "<group>"; };
 		51F4346C2A548B8000093E39 /* CartoonBlocks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CartoonBlocks.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,83 +80,53 @@
 		518C0F082A52F8FA003B8DCD = {
 			isa = PBXGroup;
 			children = (
-				518C0F132A52F8FA003B8DCD /* thinkitive-text-animator */,
-				518C0F2A2A52F8FB003B8DCD /* thinkitive-text-animatorTests */,
-				518C0F342A52F8FB003B8DCD /* thinkitive-text-animatorUITests */,
+				518C0F132A52F8FA003B8DCD /* thinkitive-text-animator-demo */,
+				518C0F2A2A52F8FB003B8DCD /* thinkitive-text-animatorDemoTests */,
+				518C0F342A52F8FB003B8DCD /* thinkitive-text-animatorDemoUITests */,
 				518C0F122A52F8FA003B8DCD /* Products */,
+				E42A8A81F4845C80F096D6DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		518C0F122A52F8FA003B8DCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				518C0F112A52F8FA003B8DCD /* thinkitive-text-animator.app */,
-				518C0F272A52F8FB003B8DCD /* thinkitive-text-animatorTests.xctest */,
-				518C0F312A52F8FB003B8DCD /* thinkitive-text-animatorUITests.xctest */,
+				518C0F112A52F8FA003B8DCD /* thinkitive-text-animator-demo.app */,
+				518C0F272A52F8FB003B8DCD /* thinkitive-text-animator-demoTests.xctest */,
+				518C0F312A52F8FB003B8DCD /* thinkitive-text-animator-demoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		518C0F132A52F8FA003B8DCD /* thinkitive-text-animator */ = {
+		518C0F132A52F8FA003B8DCD /* thinkitive-text-animator-demo */ = {
 			isa = PBXGroup;
 			children = (
 				518C0F142A52F8FA003B8DCD /* AppDelegate.swift */,
 				518C0F182A52F8FA003B8DCD /* ViewController.swift */,
 				51F434692A5488CD00093E39 /* Fonts */,
-				518C0F442A52FA6A003B8DCD /* Classes */,
 				518C0F1A2A52F8FA003B8DCD /* Main.storyboard */,
 				518C0F1D2A52F8FB003B8DCD /* Assets.xcassets */,
 				518C0F1F2A52F8FB003B8DCD /* LaunchScreen.storyboard */,
 				518C0F222A52F8FB003B8DCD /* Info.plist */,
 			);
-			path = "thinkitive-text-animator";
+			path = "thinkitive-text-animator-demo";
 			sourceTree = "<group>";
 		};
-		518C0F2A2A52F8FB003B8DCD /* thinkitive-text-animatorTests */ = {
+		518C0F2A2A52F8FB003B8DCD /* thinkitive-text-animatorDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				518C0F2B2A52F8FB003B8DCD /* thinkitive_text_animatorTests.swift */,
 			);
-			path = "thinkitive-text-animatorTests";
+			path = "thinkitive-text-animatorDemoTests";
 			sourceTree = "<group>";
 		};
-		518C0F342A52F8FB003B8DCD /* thinkitive-text-animatorUITests */ = {
+		518C0F342A52F8FB003B8DCD /* thinkitive-text-animatorDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				518C0F352A52F8FB003B8DCD /* thinkitive_text_animatorUITests.swift */,
 				518C0F372A52F8FB003B8DCD /* thinkitive_text_animatorUITestsLaunchTests.swift */,
 			);
-			path = "thinkitive-text-animatorUITests";
-			sourceTree = "<group>";
-		};
-		518C0F442A52FA6A003B8DCD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				518C0F512A52FC4A003B8DCD /* Utilities */,
-				518C0F452A52FA8E003B8DCD /* DrawingTextView */,
-				518C0F4C2A52FAEE003B8DCD /* TextAnimatorDesignable.swift */,
-				518C0F582A546DA7003B8DCD /* TextAnimatorFactory.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		518C0F452A52FA8E003B8DCD /* DrawingTextView */ = {
-			isa = PBXGroup;
-			children = (
-				518C0F462A52FA8E003B8DCD /* DrawingTextView.swift */,
-				518C0F542A52FFBC003B8DCD /* DrawingLabel.swift */,
-				518C0F472A52FA8E003B8DCD /* DrawingTextViewExtensions.swift */,
-				518C0F482A52FA8E003B8DCD /* DrawingTextView.xib */,
-			);
-			path = DrawingTextView;
-			sourceTree = "<group>";
-		};
-		518C0F512A52FC4A003B8DCD /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				518C0F522A52FC60003B8DCD /* Utilities.swift */,
-			);
-			path = Utilities;
+			path = "thinkitive-text-animatorDemoUITests";
 			sourceTree = "<group>";
 		};
 		51F434692A5488CD00093E39 /* Fonts */ = {
@@ -180,12 +137,20 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		E42A8A81F4845C80F096D6DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				311728BECE1B2E3E1A5B2E85 /* Pods_thinkitive_text_animator_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		518C0F102A52F8FA003B8DCD /* thinkitive-text-animator */ = {
+		518C0F102A52F8FA003B8DCD /* thinkitive-text-animator-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 518C0F3B2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator" */;
+			buildConfigurationList = 518C0F3B2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator-demo" */;
 			buildPhases = (
 				518C0F0D2A52F8FA003B8DCD /* Sources */,
 				518C0F0E2A52F8FA003B8DCD /* Frameworks */,
@@ -195,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = "thinkitive-text-animator";
+			name = "thinkitive-text-animator-demo";
 			productName = "thinkitive-text-animator";
-			productReference = 518C0F112A52F8FA003B8DCD /* thinkitive-text-animator.app */;
+			productReference = 518C0F112A52F8FA003B8DCD /* thinkitive-text-animator-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		518C0F262A52F8FB003B8DCD /* thinkitive-text-animatorTests */ = {
+		518C0F262A52F8FB003B8DCD /* thinkitive-text-animator-demoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 518C0F3E2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animatorTests" */;
+			buildConfigurationList = 518C0F3E2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator-demoTests" */;
 			buildPhases = (
 				518C0F232A52F8FB003B8DCD /* Sources */,
 				518C0F242A52F8FB003B8DCD /* Frameworks */,
@@ -213,14 +178,14 @@
 			dependencies = (
 				518C0F292A52F8FB003B8DCD /* PBXTargetDependency */,
 			);
-			name = "thinkitive-text-animatorTests";
+			name = "thinkitive-text-animator-demoTests";
 			productName = "thinkitive-text-animatorTests";
-			productReference = 518C0F272A52F8FB003B8DCD /* thinkitive-text-animatorTests.xctest */;
+			productReference = 518C0F272A52F8FB003B8DCD /* thinkitive-text-animator-demoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		518C0F302A52F8FB003B8DCD /* thinkitive-text-animatorUITests */ = {
+		518C0F302A52F8FB003B8DCD /* thinkitive-text-animator-demoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 518C0F412A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animatorUITests" */;
+			buildConfigurationList = 518C0F412A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator-demoUITests" */;
 			buildPhases = (
 				518C0F2D2A52F8FB003B8DCD /* Sources */,
 				518C0F2E2A52F8FB003B8DCD /* Frameworks */,
@@ -231,9 +196,9 @@
 			dependencies = (
 				518C0F332A52F8FB003B8DCD /* PBXTargetDependency */,
 			);
-			name = "thinkitive-text-animatorUITests";
+			name = "thinkitive-text-animator-demoUITests";
 			productName = "thinkitive-text-animatorUITests";
-			productReference = 518C0F312A52F8FB003B8DCD /* thinkitive-text-animatorUITests.xctest */;
+			productReference = 518C0F312A52F8FB003B8DCD /* thinkitive-text-animator-demoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -259,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 518C0F0C2A52F8FA003B8DCD /* Build configuration list for PBXProject "thinkitive-text-animator" */;
+			buildConfigurationList = 518C0F0C2A52F8FA003B8DCD /* Build configuration list for PBXProject "thinkitive-text-animator-demo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				518C0F102A52F8FA003B8DCD /* thinkitive-text-animator */,
-				518C0F262A52F8FB003B8DCD /* thinkitive-text-animatorTests */,
-				518C0F302A52F8FB003B8DCD /* thinkitive-text-animatorUITests */,
+				518C0F102A52F8FA003B8DCD /* thinkitive-text-animator-demo */,
+				518C0F262A52F8FB003B8DCD /* thinkitive-text-animator-demoTests */,
+				518C0F302A52F8FB003B8DCD /* thinkitive-text-animator-demoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				518C0F4B2A52FA8E003B8DCD /* DrawingTextView.xib in Resources */,
 				518C0F212A52F8FB003B8DCD /* LaunchScreen.storyboard in Resources */,
 				51F4346D2A548B8000093E39 /* CartoonBlocks.ttf in Resources */,
 				518C0F1E2A52F8FB003B8DCD /* Assets.xcassets in Resources */,
@@ -313,14 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				518C0F492A52FA8E003B8DCD /* DrawingTextView.swift in Sources */,
 				518C0F192A52F8FA003B8DCD /* ViewController.swift in Sources */,
-				518C0F4A2A52FA8E003B8DCD /* DrawingTextViewExtensions.swift in Sources */,
-				518C0F4D2A52FAEE003B8DCD /* TextAnimatorDesignable.swift in Sources */,
 				518C0F152A52F8FA003B8DCD /* AppDelegate.swift in Sources */,
-				518C0F592A546DA7003B8DCD /* TextAnimatorFactory.swift in Sources */,
-				518C0F552A52FFBC003B8DCD /* DrawingLabel.swift in Sources */,
-				518C0F532A52FC60003B8DCD /* Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		518C0F292A52F8FB003B8DCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 518C0F102A52F8FA003B8DCD /* thinkitive-text-animator */;
+			target = 518C0F102A52F8FA003B8DCD /* thinkitive-text-animator-demo */;
 			targetProxy = 518C0F282A52F8FB003B8DCD /* PBXContainerItemProxy */;
 		};
 		518C0F332A52F8FB003B8DCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 518C0F102A52F8FA003B8DCD /* thinkitive-text-animator */;
+			target = 518C0F102A52F8FA003B8DCD /* thinkitive-text-animator-demo */;
 			targetProxy = 518C0F322A52F8FB003B8DCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,7 +457,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZRMTSKAY2A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "thinkitive-text-animator/Info.plist";
+				INFOPLIST_FILE = "thinkitive-text-animator-demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -528,7 +486,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZRMTSKAY2A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "thinkitive-text-animator/Info.plist";
+				INFOPLIST_FILE = "thinkitive-text-animator-demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -564,7 +522,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thinkitive-text-animator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thinkitive-text-animator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thinkitive-text-animator-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thinkitive-text-animator-demo";
 			};
 			name = Debug;
 		};
@@ -584,7 +542,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thinkitive-text-animator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thinkitive-text-animator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thinkitive-text-animator-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thinkitive-text-animator-demo";
 			};
 			name = Release;
 		};
@@ -627,7 +585,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		518C0F0C2A52F8FA003B8DCD /* Build configuration list for PBXProject "thinkitive-text-animator" */ = {
+		518C0F0C2A52F8FA003B8DCD /* Build configuration list for PBXProject "thinkitive-text-animator-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518C0F392A52F8FB003B8DCD /* Debug */,
@@ -636,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		518C0F3B2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator" */ = {
+		518C0F3B2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518C0F3C2A52F8FB003B8DCD /* Debug */,
@@ -645,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		518C0F3E2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animatorTests" */ = {
+		518C0F3E2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator-demoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518C0F3F2A52F8FB003B8DCD /* Debug */,
@@ -654,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		518C0F412A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animatorUITests" */ = {
+		518C0F412A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator-demoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518C0F422A52F8FB003B8DCD /* Debug */,
