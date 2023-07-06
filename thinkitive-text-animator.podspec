@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "thinkitive-text-animator"
-  spec.version      = "1.2"
+  spec.version      = "1.3"
   spec.summary      = "An iOS text animator library that provides UIViews that display text that can animate its outline for each character"
 
   # This description is used to generate tags and improve search results.
@@ -87,7 +87,7 @@ Library provides instances of UIView that cofnrom to TextAnimatorView through wh
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source = { :git => "https://github.com/gosis/thinkitive-text-animator.git", :tag => "#{1.2}" }
+  spec.source = { :git => "https://github.com/gosis/thinkitive-text-animator.git", :tag => "#{1.3}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

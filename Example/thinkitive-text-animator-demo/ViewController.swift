@@ -31,20 +31,23 @@ class ViewController: UIViewController {
         
         view.addSubview(drawingTextView)
         
-        drawingTextView.frame = CGRect(origin: CGPoint(x: 0, y: 50), size: UIScreen.main.bounds.size)
+        drawingTextView.frame = CGRect(origin: CGPoint(x: 0, y: 0), size: UIScreen.main.bounds.size)
         
         // Set font, its size doesn't matter much because .updateLayout() will be used
         // to set the final font size to fill the entire frame
-        drawingTextView.setFont(font: UIFont(name: "CartoonBlocks", size: 30)!)
-        
+        drawingTextView.setFont(font: UIFont(name: "Noteworthy", size: 30)!)
+                        
         // Set an array of text lines
         drawingTextView.setText(lines: exampleLines)
         
         // Set alignment to the left
-        drawingTextView.setTextAlignment(textAlignment: .left)
+        drawingTextView.setTextAlignment(textAlignment: .center)
         
         // Set animated outline color
-        drawingTextView.setBorderColor(color: UIColor.white)
+        drawingTextView.setOutlineColor(color: UIColor.black)
+        
+        // Set width of drawing outline
+        drawingTextView.setLineWidth(width: 1.2)
         
         // Set the max possible font size for the new frame and update the inner layout
         drawingTextView.updateLayout()

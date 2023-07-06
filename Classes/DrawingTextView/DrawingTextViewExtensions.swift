@@ -11,7 +11,7 @@ extension DrawingTextView: TextAnimatorDesignable {
     public func getTextColor() -> UIColor {
         let label = labels.at(index: 0)!
         if let drawingLabel = label as? DrawingLabel {
-            return drawingLabel.fillColor
+            return drawingLabel.textColor
         }
         return UIColor.clear
     }
@@ -41,8 +41,6 @@ extension DrawingTextView: TextAnimatorDesignable {
             }
         }
         label.text = labels.at(index: longestLabelIndex)!.text
-        
-        updateLayout()
     }
     
     public func getText() -> String {
@@ -61,7 +59,7 @@ extension DrawingTextView: TextAnimatorDesignable {
         return text
     }
     
-    public func getBorderColor() -> UIColor {
+    public func getOutlineColor() -> UIColor {
         
         let label = self.labels.at(index: 0)!
         if let drawingLabel = label as? DrawingLabel {
@@ -82,19 +80,9 @@ extension DrawingTextView: TextAnimatorDesignable {
                 drawingLabel.font = font
             }
         }
-        
-        updateLayout()
     }
     
-    public func setColor(color: UIColor) {
-        for label1 in labels {
-            if let drawingLabel = label1 as? DrawingLabel {
-                drawingLabel.fillColor = color
-            }
-        }
-    }
-    
-    public func setBorderColor(color: UIColor) {
+    public func setOutlineColor(color: UIColor) {
         for label1 in labels {
             if let drawingLabel = label1 as? DrawingLabel {
                 drawingLabel.drawingColor = color
@@ -104,6 +92,14 @@ extension DrawingTextView: TextAnimatorDesignable {
     
     public func setTextAlignment(textAlignment: NSTextAlignment) {
         stackView.textAlignment = textAlignment
+    }
+    
+    public func setLineWidth(width: CGFloat) {
+        for label1 in labels {
+            if let drawingLabel = label1 as? DrawingLabel {
+                drawingLabel.lineWidth = width
+            }
+        }
     }
     
     public func updateLayout() {
