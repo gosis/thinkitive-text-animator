@@ -1,0 +1,6 @@
+framework module Pods_thinkitive_text_animator_demo {
+  umbrella header "Pods-thinkitive-text-animator-demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

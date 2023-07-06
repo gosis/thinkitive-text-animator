@@ -1,0 +1,6 @@
+framework module thinkitive_text_animator {
+  umbrella header "thinkitive-text-animator-umbrella.h"
+
+  export *
+  module * { export * }
+}

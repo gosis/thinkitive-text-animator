@@ -16,6 +16,7 @@
 		518C0F362A52F8FB003B8DCD /* thinkitive_text_animatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F352A52F8FB003B8DCD /* thinkitive_text_animatorUITests.swift */; };
 		518C0F382A52F8FB003B8DCD /* thinkitive_text_animatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C0F372A52F8FB003B8DCD /* thinkitive_text_animatorUITestsLaunchTests.swift */; };
 		51F4346D2A548B8000093E39 /* CartoonBlocks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F4346C2A548B8000093E39 /* CartoonBlocks.ttf */; };
+		ADC14E767DA008FF42692138 /* Pods_thinkitive_text_animator_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311728BECE1B2E3E1A5B2E85 /* Pods_thinkitive_text_animator_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		518C0F352A52F8FB003B8DCD /* thinkitive_text_animatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thinkitive_text_animatorUITests.swift; sourceTree = "<group>"; };
 		518C0F372A52F8FB003B8DCD /* thinkitive_text_animatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thinkitive_text_animatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		51F4346C2A548B8000093E39 /* CartoonBlocks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CartoonBlocks.ttf; sourceTree = "<group>"; };
+		56CA67640154D1CDCCD01D25 /* Pods-thinkitive-text-animator-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thinkitive-text-animator-demo.debug.xcconfig"; path = "Target Support Files/Pods-thinkitive-text-animator-demo/Pods-thinkitive-text-animator-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D30B1E4AC602B70C60BCFC20 /* Pods-thinkitive-text-animator-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thinkitive-text-animator-demo.release.xcconfig"; path = "Target Support Files/Pods-thinkitive-text-animator-demo/Pods-thinkitive-text-animator-demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC14E767DA008FF42692138 /* Pods_thinkitive_text_animator_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +89,7 @@
 				518C0F342A52F8FB003B8DCD /* thinkitive-text-animatorDemoUITests */,
 				518C0F122A52F8FA003B8DCD /* Products */,
 				E42A8A81F4845C80F096D6DB /* Frameworks */,
+				AFBF67F825D4588920CD89A8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +142,16 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		AFBF67F825D4588920CD89A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56CA67640154D1CDCCD01D25 /* Pods-thinkitive-text-animator-demo.debug.xcconfig */,
+				D30B1E4AC602B70C60BCFC20 /* Pods-thinkitive-text-animator-demo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E42A8A81F4845C80F096D6DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 518C0F3B2A52F8FB003B8DCD /* Build configuration list for PBXNativeTarget "thinkitive-text-animator-demo" */;
 			buildPhases = (
+				9B2D294BD8C7E7B95447FDF7 /* [CP] Check Pods Manifest.lock */,
 				518C0F0D2A52F8FA003B8DCD /* Sources */,
 				518C0F0E2A52F8FA003B8DCD /* Frameworks */,
 				518C0F0F2A52F8FA003B8DCD /* Resources */,
+				24EB533B1701F93F64BF04C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +288,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24EB533B1701F93F64BF04C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thinkitive-text-animator-demo/Pods-thinkitive-text-animator-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thinkitive-text-animator-demo/Pods-thinkitive-text-animator-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-thinkitive-text-animator-demo/Pods-thinkitive-text-animator-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2D294BD8C7E7B95447FDF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-thinkitive-text-animator-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		518C0F0D2A52F8FA003B8DCD /* Sources */ = {
@@ -450,6 +509,7 @@
 		};
 		518C0F3C2A52F8FB003B8DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CA67640154D1CDCCD01D25 /* Pods-thinkitive-text-animator-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +539,7 @@
 		};
 		518C0F3D2A52F8FB003B8DCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30B1E4AC602B70C60BCFC20 /* Pods-thinkitive-text-animator-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

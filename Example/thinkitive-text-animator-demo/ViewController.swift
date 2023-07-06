@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import thinkitive_text_animator
 
 class ViewController: UIViewController {
     

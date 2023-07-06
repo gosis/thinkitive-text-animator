@@ -1,0 +1,16 @@
+PODS:
+  - thinkitive-text-animator (1.2)
+
+DEPENDENCIES:
+  - thinkitive-text-animator (from `../`)
+
+EXTERNAL SOURCES:
+  thinkitive-text-animator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  thinkitive-text-animator: 8d178c8c430938e1d4b9e8c5ebbea293aadfd398
+
+PODFILE CHECKSUM: 36c71cb11ccc57ac2c8965903a01de741f1b1199
+
+COCOAPODS: 1.12.1

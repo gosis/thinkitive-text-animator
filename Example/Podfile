@@ -6,6 +6,8 @@ target 'thinkitive-text-animator-demo' do
   use_frameworks!
 
   # Pods for thinkitive-text-animator-demo
-	pod 'thinkitive-text-animator', '1.0'
+	pod 'thinkitive-text-animator', '1.2'
+	#pod 'thinkitive-text-animator', :path => '../'
+
 
 end
